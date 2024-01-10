@@ -1,5 +1,11 @@
-
+import java.util.Scanner
 fun main() {
+        val sc = Scanner(System.`in`)
+    println("Introduce el primer número: ")
+    val a = sc.nextInt()
+    println("Introduce el segundo número: ")
+    val b = sc.nextInt()
+    println("El resultado es: ")
     println(multiplicar(5, 5))
 }
 
