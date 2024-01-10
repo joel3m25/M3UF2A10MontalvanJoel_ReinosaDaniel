@@ -1,9 +1,15 @@
-
+import java.util.*
 fun main() {
-    println(m1(5))
-    println(m2(5.0, 5))
-    println(m3(5))
-    println(m4(5))
+    val sc = Scanner(System.`in`)
+    println("Introduce el primer número: ")
+    val a = sc.nextInt()
+    println("Introduce el segundo número: ")
+    val b = sc.nextInt()
+    println("El resultado es: ")
+    println(m1(a))
+    println(m2(a.toDouble(), b))
+    println(m3(a))
+    println(m4(a))
 }
 
 fun m1(n: Int): Int {
